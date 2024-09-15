@@ -16,17 +16,22 @@ a {
     background-color: black;
     color: white;
     
+
 }
 .menu-item {
     display: inline-block;
     position: relative;
 }
+
+
 .menu-link {
     color: white;
     font-weight: 700;
     padding: 30px;
     display: inline-block;
 }
+
+
 .menu-list, .logo, .navigation {
     display: inline-block;
 }
@@ -41,53 +46,103 @@ a {
     color: #d63384;
 }
 
-.submais {
+
+
+.sub-mais {
     position: absolute;
     top: 100%;
     left:0;
     display: none;
     background-color: #000;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.sub-mais :not(:last-child){
+    margin-bottom: 10px;
+    border-bottom: 1px solid #494646;
+}
+.sub-mais .hidden{
+    display: none;
 }
 
-.submais a {
+.sub-mais a {
     color: #faf6f6;
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.menu-item:hover .sub-mais {
+    display: block; 
+}
+.a-.menu-item:hover .sub-mais{
+    color: #d63384;
+}
+.menu-item .sub-mais :hover{
+    color:#d63384;
 }
 
-.menu-item:hover .submais {
-    display: block;
-}
-.subcertificacoes {
+
+
+
+.sub-certificacoes {
     position: absolute;
     top: 100%;
     left:0;
     display: none;
     background-color: #000;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
-.subcertificacoes a{
+.sub-certificacoes a{
     color: #faf6f6;
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.sub-certificacoes :not(:last-child){
+    margin-bottom: 10px;
+}
+.sub-certificacoes .hidden{
+    display: none;
 }
 
-.menu-item:hover .subcertificacoes {
+.menu-item:hover .sub-certificacoes {
     display: block;
 }
+.menu-item .sub-certificacoes :hover{
+    color:#d63384;
+}
 
-.subcursos {
+
+
+
+.sub-cursos {
     position: absolute;
     top: 100%;
     left:0;
     display: none;
     background-color: #000;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
-.subcursos a{
+.sub-cursos :not(:last-child){
+    margin-bottom: 10px;
+    border-bottom: 1px solid #494646;
+    margin: 1.5;
+}
+.sub-cursos .hidden{
+    display: none;
+}
+.sub-cursos a{
     color: #faf6f6;
-    font-size: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 1.5;
 }
-
-.menu-item:hover .subcursos {
+.menu-item:hover .sub-cursos {
     display: block;
 }
+.menu-item .sub-cursos :hover{
+    color:#d63384;
+} 
